@@ -28,6 +28,9 @@ pub mod module;
 /// Operations on tensors module.
 pub mod ops;
 
+/// Streams of operations
+pub mod stream;
+
 #[cfg(feature = "experimental-named-tensor")]
 mod named;
 #[cfg(feature = "experimental-named-tensor")]
